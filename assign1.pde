@@ -19,6 +19,8 @@ void setup () {
   treasure=loadImage("img/treasure.png");
   
   
+  
+  
   x=floor(random(41,600));
   y=floor(random(41,440));
   h=floor(random(18,210));
@@ -30,18 +32,20 @@ void setup () {
   
   
   
-  
-}
+   }
 
 void draw() {
   // your code
 background(0);
 
 //bg  
-  c+=10;
+  c+=10; 
   c%=640;
-  image(bgTwo,c,0);
-  image(bgOne,c-640,0);
+ 
+  image(bgTwo,c,0,640,480);
+  image(bgOne,c-640,0,640,480);
+  
+  
   
   
   image(fighter,585,230);
@@ -62,5 +66,6 @@ background(0);
   rectMode(CORNERS);
   rect(18,10,h,24);
 image(hp,5,5);
+
 
 }
