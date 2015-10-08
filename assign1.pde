@@ -45,7 +45,7 @@ background(0);
   
   
   image(fighter,585,230);
-  image(hp,5,5);
+  
   
   image(treasure,x,y);
   
@@ -58,9 +58,9 @@ background(0);
   
 //hpcolor  
   fill(255,0,0);
-  stroke(255);
+  stroke(255,0,0);
   rectMode(CORNERS);
   rect(18,10,h,24);
-
+image(hp,5,5);
 
 }
