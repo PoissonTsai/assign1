@@ -39,11 +39,12 @@ void draw() {
 background(0);
 
 //bg  
-  c+=10; 
-  c%=640;
- 
-  image(bgTwo,c,0,640,480);
-  image(bgOne,c-640,0,640,480);
+c+=10;
+c%=1280;
+image(bgTwo,c,0,640,480);
+image(bgOne,c-640,0,640,480);
+image(bgTwo,c-1280,0,640,480);
+
   
   
   
