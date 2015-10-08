@@ -24,7 +24,7 @@ void setup () {
   x=floor(random(41,600));
   y=floor(random(41,440));
   h=floor(random(18,210));
-  a=0;
+  a=-60;
   b=floor(random(0,421));
   c=0;
   
